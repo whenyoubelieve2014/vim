@@ -1,0 +1,14 @@
+cd $HOME
+hg clone https://vim.googlecode.com/hg/ vim
+cd vim
+hg pull
+hg update
+cd src
+./configure --enable-pythoninterp --with-features=huge --prefix=$HOME/opt/vim
+make && make install
+mkdir -p $HOME/bin
+cd $HOME/bin
+ln -s $HOME/opt/vim/bin/vim
+which vim
+vim --version
+rm -rf vim
