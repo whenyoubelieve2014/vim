@@ -3,7 +3,7 @@
 
 
 " Automatic reloading of .vimrc
-"" autocmd! bufwritepost .vimrc source %
+ autocmd! bufwritepost .vimrc source %
 
 
 " Better copy & paste
@@ -15,8 +15,8 @@
 
 
 " Mouse and backspace
-"" set mouse=a  " on OSX press ALT and click
-"" set bs=2     " make backspace behave like normal again
+ set mouse=a  " on OSX press ALT and click
+ set bs=2     " make backspace behave like normal again
 
 
 " Rebind <Leader> key
@@ -75,26 +75,26 @@
 
 
 " Color scheme
-" mkdir -p ~/.vim/colors && cd ~/.vim/colors
-" wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
+"" mkdir -p ~/.vim/colors && cd ~/.vim/colors
+"" wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 "" set t_Co=256
 "" color wombat256mod
 
 
 " Enable syntax highlighting
 " You need to reload this file for the change to apply
-"" filetype off
-"" filetype plugin indent on
-"" syntax on
+ filetype off
+ filetype plugin indent on
+ syntax on
 
 
 " Showing line numbers and length
-"" set number  " show line numbers
-"" set tw=79   " width of document (used by gd)
-"" set nowrap  " don't automatically wrap on load
-"" set fo-=t   " don't automatically wrap text when typing
-"" set colorcolumn=80
-"" highlight ColorColumn ctermbg=233
+ set number  " show line numbers
+ set tw=79   " width of document (used by gd)
+ set nowrap  " don't automatically wrap on load
+ set fo-=t   " don't automatically wrap text when typing
+ set colorcolumn=80
+ highlight ColorColumn ctermbg=233
 
 
 " easier formatting of paragraphs
@@ -108,18 +108,18 @@
 
 
 " Real programmers don't use TABs but spaces
-"" set tabstop=4
-"" set softtabstop=4
-"" set shiftwidth=4
-"" set shiftround
-"" set expandtab
+ set tabstop=4
+ set softtabstop=4
+ set shiftwidth=4
+ set shiftround
+ set expandtab
 
 
 " Make search case insensitive
-"" set hlsearch
-"" set incsearch
-"" set ignorecase
-"" set smartcase
+ set hlsearch
+ set incsearch
+ set ignorecase
+ set smartcase
 
 
 " Disable stupid backup and swap files - they trigger too many events
